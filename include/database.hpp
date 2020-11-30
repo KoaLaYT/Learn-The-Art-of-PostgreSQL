@@ -10,7 +10,8 @@
 
 using namespace std;
 
-extern const string DB_CONN_STR;
+extern const string CHINOOKDB_CONN_STR;
+extern const string F1DB_CONN_STR;
 extern const string BASE_DIR;
 
 class Database {

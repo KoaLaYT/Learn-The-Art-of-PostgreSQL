@@ -43,7 +43,7 @@ void sql_genre_topn(Database& db, int num)
 
 int main()
 {
-    Database db{DB_CONN_STR, BASE_DIR + "/chinook/sql"};
+    Database db{CHINOOKDB_CONN_STR, BASE_DIR + "/chinook/sql"};
 
     // sql_artist(db, 10);
     // sql_album(db, "Faith No More");

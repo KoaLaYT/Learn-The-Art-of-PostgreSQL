@@ -1,6 +1,7 @@
 #include "../include/database.hpp"
 
-const string DB_CONN_STR = "user=chinook dbname=chinook password=chinook";
+const string CHINOOKDB_CONN_STR = "user=chinook dbname=chinook password=chinook";
+const string F1DB_CONN_STR = "user=f1db dbname=f1db password=f1db";
 const string BASE_DIR = "/Users/koalayt/Study/Learning-PostgreSQL/The-Art-Of-PostgreSQL";
 
 namespace sql {
