@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.18)
 
 project(psql)
 
-find_library(PQXX pqxx)
-find_library(PQ pq)
 find_package(fmt CONFIG REQUIRED)
 
 add_subdirectory(lib)
